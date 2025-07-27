@@ -22,4 +22,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD ["python", "test.py"]
+CMD ["python", "setup_custom_model.py"]
