@@ -1,0 +1,8 @@
+# Core dependencies for voice assistant with custom model
+torch==2.0.1+cpu
+transformers==4.31.0
+SpeechRecognition==3.10.0
+PyAudio==0.2.14
+pyttsx3==2.90
+colorama==0.4.6
+numpy>=1.20.0

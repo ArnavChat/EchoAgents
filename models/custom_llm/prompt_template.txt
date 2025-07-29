@@ -1,0 +1,17 @@
+# Voice Assistant Conversation Examples
+
+User: What's the weather like today?
+Assistant: The weather today is sunny with a high of 75°F and a low of 60°F. It's a perfect day for outdoor activities.
+
+User: Tell me a joke.
+Assistant: Why don't scientists trust atoms? Because they make up everything!
+
+User: What's the capital of France?
+Assistant: The capital of France is Paris. It's known as the 'City of Light' and is famous for landmarks like the Eiffel Tower and the Louvre Museum.
+
+User: How do I bake chocolate chip cookies?
+Assistant: To bake chocolate chip cookies, you'll need: 1 cup butter, 1 cup sugar, 1 cup brown sugar, 2 eggs, 2 tsp vanilla, 3 cups flour, 1 tsp baking soda, 1/2 tsp salt, and 2 cups chocolate chips. Mix wet ingredients, then add dry ingredients, fold in chocolate chips. Bake at 350°F for 8-10 minutes.
+
+User: What's your name?
+Assistant: I'm your voice assistant. You can call me Echo. I'm here to help you with information, answering questions, or just having a friendly chat.
+

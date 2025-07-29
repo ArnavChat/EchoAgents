@@ -1,0 +1,120 @@
+# ----------------------------
+# Python-related
+# ----------------------------
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+*.so
+
+# Jupyter/IPython
+.ipynb_checkpoints/
+
+# Python packaging
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# ----------------------------
+# Environment
+# ----------------------------
+.env
+.env.*
+.venv/
+venv/
+ENV/
+env/
+
+# ----------------------------
+# Editor / OS-specific
+# ----------------------------
+*.swp
+*.bak
+*.tmp
+*.old
+*.log
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ----------------------------
+# Testing
+# ----------------------------
+.coverage
+.tox/
+coverage.xml
+htmlcov/
+nosetests.xml
+test-output/
+*.cover
+.pytest_cache/
+
+# ----------------------------
+# Docker / PIDs
+# ----------------------------
+*.pid
+*.seed
+*.pid.lock
+
+# ----------------------------
+# Hugging Face
+# ----------------------------
+.hf_cache/
+datasets/
+D/
+
+# ----------------------------
+# Model files & checkpoints
+# ----------------------------
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+*.onnx
+checkpoints/
+runs/
+
+# ----------------------------
+# Tokenizer & vocab files (auto-generated)
+# ----------------------------
+tokenizer.json
+vocab.json
+merges.txt
+special_tokens_map.json
+tokenizer_config.json
+generation_config.json
+config.json
+
+# ----------------------------
+# Data files
+# ----------------------------
+*.csv
+*.jsonl
+*.tsv
+
+# Large dataset files (customize if needed)
+alpaca*.json
+combined_dataset.json
+custom_conversations.json
+sample_conversations.json
+
+# ----------------------------
+# VS Code
+# ----------------------------
+.vscode/
+
+# ----------------------------
+# Project-specific paths
+# ----------------------------
+data/training/json/reddit_opinion_democrats.json
+data/training/json/sentiment140.json
+data/reddit_opinion_democrats.csv
+
+# ----------------------------
+# Others
+# ----------------------------
+*.cache
+*.log.*
