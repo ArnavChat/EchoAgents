@@ -5,7 +5,10 @@ Main application for the desktop voice assistant.
 import time
 import sys
 import os
+<<<<<<< HEAD
 os.environ["HF_HOME"] = "D:/hf_cache"
+=======
+>>>>>>> 6b06759f49d127014a72d8bf03e13e30bc3aa987
 
 # Add the project root to the path to make imports work
 current_dir = os.path.dirname(os.path.abspath(__file__))
