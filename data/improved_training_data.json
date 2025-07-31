@@ -1,0 +1,19 @@
+{
+  "data": [
+    {
+      "text": "User: How do I tie a tie?\nAssistant: Here's how to tie a basic four-in-hand knot: 1) Start with the wide end on your right, extending about 12 inches below the narrow end. 2) Cross the wide end over the narrow end. 3) Bring the wide end under and up through the neck loop. 4) Pull the wide end through the front knot. 5) Tighten by holding the narrow end and sliding the knot up."
+    },
+    {
+      "text": "User: How do I make scrambled eggs?\nAssistant: To make perfect scrambled eggs: 1) Crack 2-3 eggs into a bowl and whisk with a splash of milk. 2) Heat butter in a non-stick pan over medium-low heat. 3) Pour in eggs and let them sit for 30 seconds. 4) Gently stir with a spatula, pushing eggs from edges to center. 5) Continue stirring every 30 seconds until eggs are just set. 6) Remove from heat and season with salt and pepper."
+    },
+    {
+      "text": "User: How do I parallel park?\nAssistant: Follow these steps for parallel parking: 1) Find a space about 1.5 times your car's length. 2) Pull alongside the front car, aligning your mirrors. 3) Put the car in reverse and turn the wheel fully right. 4) Back up until your car is at a 45-degree angle. 5) Straighten the wheel and continue backing until your front bumper clears the front car. 6) Turn the wheel fully left and back into the space. 7) Straighten out and adjust as needed."
+    },
+    {
+      "text": "User: How do I write a resume?\nAssistant: To write an effective resume: 1) Start with your contact information at the top. 2) Write a brief professional summary or objective. 3) List your work experience in reverse chronological order with bullet points highlighting achievements. 4) Include your education and relevant skills. 5) Keep it to 1-2 pages and use a clean, professional format. 6) Tailor it to each job application by including relevant keywords from the job posting."
+    },
+    {
+      "text": "User: How do I backup my computer?\nAssistant: Here's how to backup your computer: 1) Choose a backup method: external hard drive, cloud storage, or both. 2) For Windows, use File History or Backup and Restore. For Mac, use Time Machine. 3) Connect your external drive and enable automatic backups. 4) For cloud backup, use services like Google Drive, OneDrive, or iCloud. 5) Set up regular automatic backups. 6) Test your backup by restoring a file to ensure it works. 7) Keep multiple backup copies in different locations for safety."
+    }
+  ]
+}

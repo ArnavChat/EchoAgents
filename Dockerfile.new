@@ -3,7 +3,6 @@ FROM python:3.11-slim
 WORKDIR /app
 
 # Install system dependencies required for pip builds, including for PyAudio
-# Install system dependencies required for pip builds
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential \
     gcc \
@@ -12,20 +11,37 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libssl-dev \
     libblas-dev \
     liblapack-dev \
-    portaudio19-dev \   
+    portaudio19-dev \
+    python3-pyaudio \
+    alsa-utils \
+    pulseaudio \
     && rm -rf /var/lib/apt/lists/*
 
+# Copy requirements first for better layer caching
 COPY requirements.txt .
 
 # Upgrade pip and wheel before installing dependencies
 RUN pip install --upgrade pip wheel setuptools
 RUN pip install torch==2.6.0+cpu torchvision --index-url https://download.pytorch.org/whl/cpu
 
+# Install Python dependencies
 RUN pip install -r requirements.txt
 
+# Copy project files
 COPY . .
 
-# Fix model config files before running the application
-RUN python fix_model_config.py
+# Create directories for models and data if they don't exist
+RUN mkdir -p models/custom_llm_improved data/training
 
+# Set environment variables
+ENV PYTHONUNBUFFERED=1
+ENV USE_CUSTOM_MODEL=true
+ENV CUSTOM_MODEL_PATH=/app/models/custom_llm_improved
+ENV CUSTOM_MODEL_TYPE=pytorch
+ENV DEBUG_MODE=true
+
+# Fix model config files before running the application
+RUN if [ -f fix_model_config.py ]; then python fix_model_config.py; fi
+
+# Command to run the application
 CMD ["python", "main.py"]
