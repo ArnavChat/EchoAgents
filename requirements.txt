@@ -1,11 +1,20 @@
 # Core dependencies for voice assistant with custom model
-torch==2.0.1+cpu
+torch>=2.0.0
 transformers==4.31.0
 SpeechRecognition==3.10.0
 PyAudio==0.2.14
 pyttsx3==2.90
 colorama==0.4.6
 numpy>=1.20.0
+
+# Data visualization and analysis
+matplotlib>=3.7.1
+seaborn>=0.12.2
+pandas>=2.0.0
+scikit-learn>=1.2.2
+prettytable>=3.7.0
+
+# Additional utilities
 altair==5.5.0
 async-timeout==4.0.2
 attrs==25.3.0

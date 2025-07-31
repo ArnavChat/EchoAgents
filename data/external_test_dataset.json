@@ -1,0 +1,224 @@
+{
+  "science_technology": [
+    {
+      "question": "Explain how photosynthesis works in plants",
+      "expected_type": "factual_explanation",
+      "category": "biology",
+      "difficulty": "medium",
+      "test_category": "science_technology"
+    },
+    {
+      "question": "What is quantum computing and how does it differ from classical computing?",
+      "expected_type": "technical_explanation",
+      "category": "technology",
+      "difficulty": "hard",
+      "test_category": "science_technology"
+    },
+    {
+      "question": "Describe the process of DNA replication",
+      "expected_type": "scientific_process",
+      "category": "genetics",
+      "difficulty": "hard",
+      "test_category": "science_technology"
+    },
+    {
+      "question": "How do solar panels convert sunlight into electricity?",
+      "expected_type": "technical_process",
+      "category": "renewable_energy",
+      "difficulty": "medium",
+      "test_category": "science_technology"
+    },
+    {
+      "question": "What causes earthquakes and how are they measured?",
+      "expected_type": "geological_explanation",
+      "category": "earth_science",
+      "difficulty": "medium",
+      "test_category": "science_technology"
+    }
+  ],
+  "history_culture": [
+    {
+      "question": "What were the main causes of World War I?",
+      "expected_type": "historical_analysis",
+      "category": "world_history",
+      "difficulty": "medium",
+      "test_category": "history_culture"
+    },
+    {
+      "question": "Describe the significance of the Renaissance period in European history",
+      "expected_type": "cultural_analysis",
+      "category": "cultural_history",
+      "difficulty": "medium",
+      "test_category": "history_culture"
+    },
+    {
+      "question": "Who was Marie Curie and what were her major contributions to science?",
+      "expected_type": "biographical_summary",
+      "category": "biography",
+      "difficulty": "easy",
+      "test_category": "history_culture"
+    },
+    {
+      "question": "What was the impact of the printing press on society?",
+      "expected_type": "technological_impact",
+      "category": "innovation_history",
+      "difficulty": "medium",
+      "test_category": "history_culture"
+    },
+    {
+      "question": "Explain the fall of the Roman Empire",
+      "expected_type": "historical_analysis",
+      "category": "ancient_history",
+      "difficulty": "hard",
+      "test_category": "history_culture"
+    }
+  ],
+  "mathematics_logic": [
+    {
+      "question": "Solve this equation: 3x + 7 = 22. What is x?",
+      "expected_type": "mathematical_solution",
+      "category": "algebra",
+      "difficulty": "easy",
+      "test_category": "mathematics_logic"
+    },
+    {
+      "question": "What is the Pythagorean theorem and how is it used?",
+      "expected_type": "mathematical_concept",
+      "category": "geometry",
+      "difficulty": "medium",
+      "test_category": "mathematics_logic"
+    },
+    {
+      "question": "Explain the concept of infinity in mathematics",
+      "expected_type": "abstract_concept",
+      "category": "advanced_math",
+      "difficulty": "hard",
+      "test_category": "mathematics_logic"
+    },
+    {
+      "question": "If a train travels 120 miles in 2 hours, what is its average speed?",
+      "expected_type": "word_problem",
+      "category": "basic_math",
+      "difficulty": "easy",
+      "test_category": "mathematics_logic"
+    },
+    {
+      "question": "What is calculus and what are its main applications?",
+      "expected_type": "mathematical_overview",
+      "category": "calculus",
+      "difficulty": "hard",
+      "test_category": "mathematics_logic"
+    }
+  ],
+  "creative_writing": [
+    {
+      "question": "Write a short story about a robot learning to feel emotions",
+      "expected_type": "creative_narrative",
+      "category": "science_fiction",
+      "difficulty": "medium",
+      "test_category": "creative_writing"
+    },
+    {
+      "question": "Describe a perfect day in a magical forest",
+      "expected_type": "descriptive_writing",
+      "category": "fantasy",
+      "difficulty": "easy",
+      "test_category": "creative_writing"
+    },
+    {
+      "question": "Create a dialogue between two characters meeting for the first time",
+      "expected_type": "dialogue_writing",
+      "category": "character_development",
+      "difficulty": "medium",
+      "test_category": "creative_writing"
+    },
+    {
+      "question": "Write a poem about the changing seasons",
+      "expected_type": "poetry",
+      "category": "nature_writing",
+      "difficulty": "medium",
+      "test_category": "creative_writing"
+    },
+    {
+      "question": "Describe a futuristic city from the perspective of a time traveler",
+      "expected_type": "creative_description",
+      "category": "speculative_fiction",
+      "difficulty": "hard",
+      "test_category": "creative_writing"
+    }
+  ],
+  "problem_solving": [
+    {
+      "question": "You have a limited budget for a school event. How would you prioritize spending?",
+      "expected_type": "practical_problem",
+      "category": "resource_management",
+      "difficulty": "medium",
+      "test_category": "problem_solving"
+    },
+    {
+      "question": "How would you explain a complex topic to a 5-year-old?",
+      "expected_type": "communication_strategy",
+      "category": "teaching",
+      "difficulty": "medium",
+      "test_category": "problem_solving"
+    },
+    {
+      "question": "A friend is having a difficult time at work. What advice would you give?",
+      "expected_type": "interpersonal_advice",
+      "category": "relationships",
+      "difficulty": "medium",
+      "test_category": "problem_solving"
+    },
+    {
+      "question": "How would you design a more efficient public transportation system?",
+      "expected_type": "system_design",
+      "category": "urban_planning",
+      "difficulty": "hard",
+      "test_category": "problem_solving"
+    },
+    {
+      "question": "What steps would you take to reduce plastic waste in your community?",
+      "expected_type": "environmental_solution",
+      "category": "sustainability",
+      "difficulty": "medium",
+      "test_category": "problem_solving"
+    }
+  ],
+  "ethics_philosophy": [
+    {
+      "question": "Is it ethical to use artificial intelligence in decision-making that affects human lives?",
+      "expected_type": "ethical_analysis",
+      "category": "ai_ethics",
+      "difficulty": "hard",
+      "test_category": "ethics_philosophy"
+    },
+    {
+      "question": "What is the meaning of justice in society?",
+      "expected_type": "philosophical_concept",
+      "category": "political_philosophy",
+      "difficulty": "hard",
+      "test_category": "ethics_philosophy"
+    },
+    {
+      "question": "Should animals have rights similar to humans? Why or why not?",
+      "expected_type": "ethical_argument",
+      "category": "animal_ethics",
+      "difficulty": "medium",
+      "test_category": "ethics_philosophy"
+    },
+    {
+      "question": "What makes a life meaningful?",
+      "expected_type": "existential_question",
+      "category": "existentialism",
+      "difficulty": "hard",
+      "test_category": "ethics_philosophy"
+    },
+    {
+      "question": "Is lying ever justified? Explain your reasoning.",
+      "expected_type": "moral_reasoning",
+      "category": "moral_philosophy",
+      "difficulty": "medium",
+      "test_category": "ethics_philosophy"
+    }
+  ]
+}
