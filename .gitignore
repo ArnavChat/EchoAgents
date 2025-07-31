@@ -204,6 +204,12 @@ api_keys.txt
 *.bak
 *.backup
 
+# Exclude ALL data directories and files
+data/
+*.json
+*.jsonl
+*.csv
+
 # Large JSON files (datasets) - PREVENT LARGE DATASET UPLOADS
 data/training/alpaca_raw.json
 data/training/alpaca.json
